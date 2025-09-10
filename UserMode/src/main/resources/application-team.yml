@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: MedicalSystem
+  datasource:
+    url: jdbc:mysql://localhost:3306/medical?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: #设定自己的密码
+server:
+  port: #自己的服务端口
